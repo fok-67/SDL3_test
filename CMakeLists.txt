@@ -12,5 +12,4 @@ find_package(SDL3 CONFIG REQUIRED)
 add_executable(SDL3_Cpp_Demo test.cpp)
 
 # Collega le librerie di SDL3
-# Nota: SDL3::SDL3_test è opzionale, qui usiamo la libreria principale
 target_link_libraries(SDL3_Cpp_Demo PRIVATE SDL3::SDL3)
